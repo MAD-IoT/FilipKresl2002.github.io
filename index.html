@@ -164,14 +164,12 @@
       <p>Na přenos signálu do Raspberka jsme potřebovali převést standardní nástrojový 6.3 mm JACK na klasický sluchátkový 3.5 mm. 
         Jenomže jsme narazili na rušení a tak jsme vytvořili tento řetěz na testování vadného komponentu (OBR. HW-1). 
         Vstup nástroje měl být zapojený přímo do USB karty, ale hlasitost vstupu bylo dostatečná pouze ve chvíli, kdy jsme měli zapojený nějaký aktivní nástroj. 
-        Pasivní nástroje a jejich snímače nedokázaly poskytnou dostatečně silný signál a tak jsme se rozhodli pro předzesilovač.</p>
-      <p>Ten nám přišel jako stavebnice a součástky jsme si tedy museli osadit sami. (obr. HW-2 a 3). 
+        Pasivní nástroje a jejich snímače nedokázaly poskytnou dostatečně silný signál a tak jsme se rozhodli pro předzesilovač. Ten nám přišel jako stavebnice a součástky jsme si tedy museli osadit sami. (obr. HW-2 a 3). 
         Součástí desky předzesilovače byl i konektor na 6,3 mm JACK. Proto jsme se rozhodli neosazovat jej a raději ho připevnit na uživatelský panel. Desku jsme proto zkrátili. (HW-4) </p>
       <p>Dalším významným komponentem je koncový zesilovač. Při práci s ním a při jeho testování (HW-5) jsme narazili na problém přehřívání čipu, který jsme jednoduše vyřešili připevněním pasivního chladiče. (HW-6)</p>
 
       <p>Pro koncový zesilovač, který obsahuje usměrňovací můstek, jsme použili hnědé a žluté vinutí, na vstup zesilovače jsme tedy dostali požadovaných ±30V AC. 
-        Napájení Raspberka jsme nechali původní, tedy samostatný adaptér.</p>
-      <p>Pro předzesilovač, který vyžaduje stejnosměrné symetrické napájení jsme si ale nevystačili pouze se spojováním a museli jsme si tedy postavit vlastní „zdroj“. 
+        Napájení Raspberka jsme nechali původní, tedy samostatný adaptér. Pro předzesilovač, který vyžaduje stejnosměrné symetrické napájení jsme si ale nevystačili pouze se spojováním a museli jsme si tedy postavit vlastní „zdroj“. 
         Na výstupu měl cca 14 V a proto jsme raději snížili napětí přidáním dvou 1kΩ rezistorů. Při standardním odběru pak bylo napájení na požadované hodnotě ±9V DC. (obr HW-7 8 9 10).</p>
       <p>V signálové části obvodu jsme přidali možnost bypass, abychom vyřadili Raspberko a celá soustava fungoval pouze jako zesilovač. 
         Nakonec starý přepínač řady T6 nahradil malý přepínač, na jehož montážní otvor jsme měli požadovaný vrták. 
